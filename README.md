@@ -4,10 +4,10 @@ Create an app that consits of nothing but a giant button filling the screen
 
 ## Details
 
-- The entire screen should consist of a single push button, labled "Push Me!"
-- The button should also have a green bacgkround, red text. The button text should be 40db in size and italicized
-- When I push the "Push Me!" button, the text should change to read "You have pushed me 1 time!"
-- Each time I push the "Push Me!" button, the counter in the text should increment by 1 and the text should read "You have push med 2 times!" "...3times!" and so on
+- The entire screen should consist of a single push button, labled `Push Me!`
+- The button should also have a green bacgkround, red text. The button text should be 40db in size and _italicized_
+- When I push the `Push Me!` button, the text should change to read `You have pushed me 1 time!`
+- Each time I push the "Push Me!" button, the counter in the text should increment by 1 and the text should read `You have push me 2 times!` `...3 times!` and so on
 
 ## Goals
 
@@ -24,7 +24,7 @@ Create an app that consits of nothing but a giant button filling the screen
 
 - 2 pts for the buttons's properties set correctly (size, font, etc)
 - 2 pts for the text changing when pushed
-- 1 pt for the text changing correct ("time" vs "times")
+- 1 pt for the text changing correct (`time` vs `times`)
 
 ### Extra credit
 
