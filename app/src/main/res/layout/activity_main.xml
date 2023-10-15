@@ -12,18 +12,20 @@
         android:orientation="vertical"
         android:gravity="center">
 
-    <Button
-        android:id="@+id/biggo"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:backgroundTint="@android:color/holo_green_light"
-        android:text="@string/push_me"
-        android:textColor="@color/design_default_color_error"
-        android:textSize="40sp"
-        android:textStyle="italic"
-        android:visibility="visible"
-        tools:layout_editor_absoluteX="96dp"
-        tools:layout_editor_absoluteY="338dp" />
+        <Button
+            android:id="@+id/biggo"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:backgroundTint="@android:color/holo_green_light"
+            android:insetTop="0dp"
+            android:insetBottom="0dp"
+            android:text="@string/push_me"
+            android:textColor="@color/design_default_color_error"
+            android:textSize="40sp"
+            android:textStyle="italic"
+            app:cornerRadius="0dp"
+            tools:layout_editor_absoluteX="96dp"
+            tools:layout_editor_absoluteY="338dp" />
     </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>

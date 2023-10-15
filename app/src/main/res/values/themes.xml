@@ -3,6 +3,12 @@
     <style name="Base.Theme.BigGoButton" parent="Theme.Material3.DayNight.NoActionBar">
         <!-- Customize your light theme here. -->
         <!-- <item name="colorPrimary">@color/my_light_primary</item> -->
+        <item name="colorPrimary">@android:color/holo_green_light</item>
+        <item name="android:navigationBarColor">@android:color/holo_green_light</item>
+        <item name="android:statusBarColor">@android:color/holo_green_light</item>
+        <item name="android:backgroundTint">@android:color/holo_green_light</item>
+        <item name="android:insetTop">0dp</item>
+        <item name="android:insetBottom">0dp</item>
     </style>
 
     <style name="Theme.BigGoButton" parent="Base.Theme.BigGoButton" />
